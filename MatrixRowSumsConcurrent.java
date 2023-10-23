@@ -1,11 +1,3 @@
-/*There's a class called Matrix, which represents a matrix of a given size.
-It's elements are computed by the definition function based on the row and column numbers.
-The method int[] rowSums() returns an array filled with the sums of elements in the matrix rows.
-This method calculates the elements of the matrix sequentially.
-We assume that performing the definition operation can be expensive.
-The main goal of the program is to perform calculations concurrently*/
-
-
 import java.util.concurrent.CyclicBarrier;
 import java.util.function.IntBinaryOperator;
 import java.util.concurrent.BrokenBarrierException;
