@@ -6,7 +6,7 @@ Here you can find the descriptions of particular programs.
 Program that calculates the sum and dot prouct of two vectors. 
 
 ## MatrixRowSums.java
-There's a class called Matrix, which represents a matrix of a given size.
+Matrix is a class that represents a matrix of a given size.
 It's elements are computed by the definition function based on the row and column numbers.
 The method int[] rowSums() returns an array filled with the sums of elements in the matrix rows.
 
